@@ -1,0 +1,114 @@
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    
+    flex: 1;
+    
+    color: black;
+    font: 500 clamp(1rem, 3vw, 2rem)/1.1 'Poppins', sans-serif;
+}
+
+.container {
+    width: 70rem;
+    margin: 10vh 8vw 6.4rem 8vw;
+    background: white;
+    border: 1px solid #d3e2e5;
+
+    border-radius: 2rem;
+    overflow: hidden;
+
+    padding: 8rem;
+}
+
+aside img {
+    width: 10vw;
+}
+
+h1 {
+    width: 80%;
+
+    font-size: 3.2rem;
+    line-height: 1.5;
+
+    color: black;
+    font-weight: 700;
+
+    border-bottom: 1px solid #d3e2e5;
+    margin-bottom: 4rem;
+    padding-bottom: 2.4rem;
+}
+
+.container > p {
+    
+    font-weight: 700;
+    padding-bottom: 4rem;
+}
+
+.questBox {
+    border: 1px solid black;
+    border-radius: 15px;
+    background: #8c54fc;
+    min-width: 150px;;
+
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    color: #f9c031;
+    background: #5700ff;
+
+    padding: 1rem 0;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom: 1px solid black;
+}
+
+.questBox p {
+    padding: 2.4rem 2rem;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    aside.sidebar {
+        margin-bottom: 10vh;
+    }
+
+    h1 {
+        width: 50vw;
+    
+        font-size: 2.4rem;
+        line-height: 1;
+    
+        font-weight: 700;
+    
+        border-bottom: 1px solid #d3e2e5;
+        margin-bottom: 4rem;
+        padding-bottom: 2.4rem;
+        
+        padding: 5vw;
+    }
+
+    .container {
+        
+        width: 100vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 5vw 15vw;
+        padding-top: 2vh;
+        margin-top: 22vh;
+
+    }
+
+    .container > p {
+    
+        text-align: justify;
+        width: 50vw;
+    }
+    
+}
